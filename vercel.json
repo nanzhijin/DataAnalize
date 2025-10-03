@@ -1,9 +1,1 @@
-{
-  "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/client/dataAnalize$1"
-    }
-  ]
-}
+{ "version": 2, "builds": [ { "src": "client/dataAnalize/package.json", "use": "@vercel/node" } ], "routes": [ { "src": "/(.*)", "dest": "/client/dataAnalize$1" } ] }
